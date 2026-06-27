@@ -151,7 +151,7 @@ function App() {
       <div className="sidebar" style={{ width: '420px', minWidth: '420px', overflowY: 'auto' }}>
         <div className="brand">
           <div className="brand-icon" style={{ padding: '8px', background: 'transparent', boxShadow: 'none' }}>
-            <img src="/logo.png" alt="3D Box Studio Logo" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="3D Box Studio Logo" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
           </div>
           <div className="brand-title">3D Box Studio</div>
         </div>

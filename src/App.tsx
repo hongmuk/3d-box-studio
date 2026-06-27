@@ -1,7 +1,7 @@
 import { useState, useMemo, useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment, ContactShadows } from '@react-three/drei';
-import { Search, Box, Package, Type, Palette, AlignLeft, RotateCcw, Image as ImageIcon, Trash2, Maximize, Layers, Plus, ChevronLeft, Edit2 } from 'lucide-react';
+import { Search, Box, Type, Palette, AlignLeft, RotateCcw, Trash2, Maximize, Layers, Plus, ChevronLeft, Edit2 } from 'lucide-react';
 import Box3D from './Box3D';
 import type { FaceName, FaceCustomization, TextElement, ImageElement } from './Box3D';
 import './App.css';
